@@ -1,0 +1,63 @@
+Partlist
+
+Exported from IotaWatt4.8.brd at 18.11.2019 09:27
+
+EAGLE Version 7.7.0 Copyright (c) 1988-2016 CadSoft
+
+Assembly variant: 
+
+Part     Value                Package            Library        Position (inch)       Orientation
+
+ACIN     ST02-5.08MM-B        EK500V4R-B         con-dinkle     (-0.075 0.475)        R270
+C1       10uf                 C0805              adafruit       (1.35 2.475)          R90
+C2       10uf                 C0805              adafruit       (1.65 2.2875)         R0
+C3       .1uf                 C0805              adafruit       (1.85 2.425)          R180
+C4       .1uf                 C0805              adafruit       (1.2625 2.3375)       R0
+C5       .1uf                 C0805              adafruit       (2.2125 1.9875)       R90
+C6       .1uf                 C0805              adafruit       (1.425 2.2625)        R90
+C9       10uF                 C0805              adafruit       (1.55 1.35)           R90
+CT1      1X2-3.5MM            3.5MMTERM          adafruit       (0.425 2.5)           R90
+CT2      1X2-3.5MM            3.5MMTERM          adafruit       (0.425 2.225)         R90
+CT3      1X2-3.5MM            3.5MMTERM          adafruit       (0.425 1.95)          R90
+CT4      1X2-3.5MM            3.5MMTERM          adafruit       (0.425 1.675)         R90
+CT5      1X2-3.5MM            3.5MMTERM          adafruit       (0.425 1.4)           R90
+CT6      1X2-3.5MM            3.5MMTERM          adafruit       (0.425 1.125)         R90
+CT7      1X2-3.5MM            3.5MMTERM          adafruit       (0.425 0.85)          R90
+CT11     1X2-3.5MM            3.5MMTERM          adafruit       (3.05 0.8625)         R270
+CT12     1X2-3.5MM            3.5MMTERM          adafruit       (3.05 1.1375)         R270
+CT13     1X2-3.5MM            3.5MMTERM          adafruit       (3.05 1.4125)         R270
+CT14     1X2-3.5MM            3.5MMTERM          adafruit       (3.05 1.6875)         R270
+CT15     1X2-3.5MM            3.5MMTERM          adafruit       (3.05 1.9625)         R270
+CT16     1X2-3.5MM            3.5MMTERM          adafruit       (3.05 2.2375)         R270
+CT17     1X2-3.5MM            3.5MMTERM          adafruit       (3.05 2.5125)         R270
+F1       FUSEBLANK_5X20MM     FUSE_HOLDER_5X20MM fuse           (0.7875 0.1875)       R0
+HLK1     HLK-PM013W           HLK-PM01           HLK-PM01       (2.3 0.8)             R90
+R1       4.7K                 R0805              resistor       (1.85 2.575)          R0
+R2       4.7K                 R0805              resistor       (1.85 2.5)            R180
+R29      1K                   R0805              resistor       (0.775 2.45)          R270
+R31      1K                   R0805              resistor       (1.25 1.35)           R270
+R32      12K                  R0805              resistor       (1.4 1.35)            R270
+R_CT1    24                   R0805              resistor       (0.625 2.525)         R90
+R_CT2    24                   R0805              resistor       (0.625 2.25)          R90
+R_CT3    24                   R0805              resistor       (0.625 1.975)         R90
+R_CT4    24                   R0805              resistor       (0.625 1.7)           R90
+R_CT5    24                   R0805              resistor       (0.625 1.425)         R90
+R_CT6    24                   R0805              resistor       (0.625 1.15)          R90
+R_CT7    24                   R0805              resistor       (0.625 0.875)         R90
+R_CT11   24                   R0805              resistor       (2.85 0.8875)         R270
+R_CT12   24                   R0805              resistor       (2.85 1.1625)         R270
+R_CT13   24                   R0805              resistor       (2.85 1.4375)         R270
+R_CT14   24                   R0805              resistor       (2.85 1.7125)         R270
+R_CT15   24                   R0805              resistor       (2.85 1.9875)         R270
+R_CT16   24                   R0805              resistor       (2.85 2.2625)         R270
+R_CT17   24                   R0805              resistor       (2.85 2.525)          R270
+SV1                           MA07-2             con-lstb       (1.55 1.975)          R0
+U$1      MCP3208              SOIC_16            IotaWatt_parts (0.925 2.1)           R0
+U$2      MCP3208              SOIC_16            IotaWatt_parts (2.425 2.2)           R180
+U$3      VREF_SHUNT           SOT23_3            IotaWatt_parts (1.125 2.45)          R270
+U$5                           BV20               bv_20          (1.4 0.8)             R90
+U$17     TVS_4CHAN_ARRAYSC-74 SC-74              IotaWatt_parts (0.925 2.45)          R0
+U$19     TVS_4CHAN_ARRAYSC-74 SC-74              IotaWatt_parts (0.925 1.8)           R0
+U$20     TVS_4CHAN_ARRAYSC-74 SC-74              IotaWatt_parts (2.425 1.85)          R0
+U$21     TVS_4CHAN_ARRAYSC-74 SC-74              IotaWatt_parts (2.425 2.4875)        R0
+U$22     LM358_DUAL_OP-AMP    SOIC_8             IotaWatt_parts (1.575 2.45)          R0

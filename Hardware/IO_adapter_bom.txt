@@ -1,0 +1,33 @@
+Partlist
+
+Exported from IO_adapter.brd at 18.11.2019 09:26
+
+EAGLE Version 7.7.0 Copyright (c) 1988-2016 CadSoft
+
+Assembly variant: 
+
+Part     Value             Package       Library        Position (mil)        Orientation
+
+C1       100u              C0805         eagle-ltspice  (850 650)             R180
+C2       10u               C0805         eagle-ltspice  (850 750)             R180
+C4       10nF              C0805         eagle-ltspice  (850 150)             R0
+C7       10uF              C0805         adafruit       (2200 1150)           R90
+GND      MCP1700SOT23      SOT-23        MCP1700        (850 300)             R270
+J$20     MICROSD_PUSH/PULL MICROSD       IotaWatt_parts (500 500)             R0
+JP1                        1X04          pinhead        (2200 1500)           R180
+LED1                       CHIPLED_0805  adafruit       (1900 300)            R90
+LED2                       CHIPLED_0805  adafruit       (1900 375)            R270
+PRG      6X3.5_TACT        TACT_6X3.5    tactile_switch (2200 200)            R180
+R1       10K               R0805         resistor       (2512.5 262.5)        R270
+R3       1K                R0805         resistor       (1850 975)            R225
+R4       220               R0805         resistor       (1912.5 175)          R180
+R5       10K               R0805         resistor       (875 425)             R0
+R6       10K               R0805         resistor       (850 1037.5)          R90
+R7       10K               R0805         resistor       (250 250)             R270
+R8       10K               R0805         resistor       (1700 550)            R90
+RST      6X3.5_TACT        TACT_6X3.5    tactile_switch (500 200)             R0
+SV1                        MA07-2        con-lstb       (1400 300)            MR180
+U$1      CR1220SMD         CR1220SMD     IotaWatt4.8    (2200 700)            R315
+U$4      PCF8523_RTC       SOIC_8        IotaWatt_parts (2050 1200)           R270
+U1                         ESP12E-SMD    esp8266modules (1350 1000)           R0
+Y1       32Khz             CRYSTAL_8X3.8 microbuilder   (2350 1200)           R270
