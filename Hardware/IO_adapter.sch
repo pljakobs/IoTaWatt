@@ -8947,60 +8947,6 @@ DIN A3, landscape with extra doc field</description>
 <wire x1="246.38" y1="27.94" x2="254" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MISO" class="0">
-<segment>
-<pinref part="J$20" gate="G$1" pin="MISO"/>
-<junction x="86.36" y="-48.26"/>
-<wire x1="86.36" y1="-48.26" x2="91.44" y2="-48.26" width="0.1524" layer="91"/>
-<label x="91.44" y="-48.26" size="1.778" layer="91" xref="yes"/>
-</segment>
-<segment>
-<pinref part="SV1" gate="G$1" pin="8"/>
-<wire x1="71.12" y1="12.7" x2="66.04" y2="12.7" width="0.1524" layer="91"/>
-<label x="55.88" y="12.7" size="1.778" layer="91" font="vector" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="MISO"/>
-<wire x1="162.56" y1="-30.48" x2="162.56" y2="-35.56" width="0.1524" layer="91"/>
-<label x="162.56" y="-35.56" size="1.778" layer="91" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="MOSI" class="0">
-<segment>
-<pinref part="J$20" gate="G$1" pin="MOSI"/>
-<junction x="63.5" y="-53.34"/>
-<wire x1="63.5" y1="-53.34" x2="58.42" y2="-53.34" width="0.1524" layer="91"/>
-<label x="58.42" y="-53.34" size="1.778" layer="91" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="SV1" gate="G$1" pin="7"/>
-<wire x1="86.36" y1="12.7" x2="91.44" y2="12.7" width="0.1524" layer="91"/>
-<label x="104.14" y="12.7" size="1.778" layer="91" font="vector" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="MOSI"/>
-<wire x1="170.18" y1="-30.48" x2="170.18" y2="-35.56" width="0.1524" layer="91"/>
-<label x="170.18" y="-45.72" size="1.778" layer="91" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="SCLK" class="0">
-<segment>
-<pinref part="J$20" gate="G$1" pin="CLK"/>
-<junction x="86.36" y="-58.42"/>
-<wire x1="86.36" y1="-58.42" x2="91.44" y2="-58.42" width="0.1524" layer="91"/>
-<label x="91.44" y="-58.42" size="1.778" layer="91" xref="yes"/>
-</segment>
-<segment>
-<pinref part="SV1" gate="G$1" pin="9"/>
-<wire x1="86.36" y1="15.24" x2="91.44" y2="15.24" width="0.1524" layer="91"/>
-<label x="91.44" y="15.24" size="1.778" layer="91" font="vector" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="SCLK"/>
-<wire x1="172.72" y1="-30.48" x2="172.72" y2="-35.56" width="0.1524" layer="91"/>
-<label x="172.72" y="-35.56" size="1.778" layer="91" rot="R270" xref="yes"/>
-</segment>
-</net>
 <net name="3V3" class="0">
 <segment>
 <pinref part="J$20" gate="G$1" pin="VDD"/>
@@ -9090,19 +9036,6 @@ DIN A3, landscape with extra doc field</description>
 <pinref part="SV1" gate="G$1" pin="14"/>
 <wire x1="71.12" y1="20.32" x2="66.04" y2="20.32" width="0.1524" layer="91"/>
 <label x="66.04" y="20.32" size="1.778" layer="91" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="CSSD" class="0">
-<segment>
-<pinref part="J$20" gate="G$1" pin="CS"/>
-<junction x="63.5" y="-48.26"/>
-<wire x1="63.5" y1="-48.26" x2="58.42" y2="-48.26" width="0.1524" layer="91"/>
-<label x="58.42" y="-48.26" size="1.778" layer="91" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="CS0"/>
-<wire x1="160.02" y1="-30.48" x2="160.02" y2="-45.72" width="0.1524" layer="91"/>
-<label x="160.02" y="-45.72" size="1.778" layer="91" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -9242,25 +9175,55 @@ DIN A3, landscape with extra doc field</description>
 <label x="261.62" y="-10.16" size="1.778" layer="91" font="vector" xref="yes"/>
 </segment>
 </net>
-<net name="GPIO14" class="0">
+<net name="HCLK" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="GPIO14"/>
 <wire x1="149.86" y1="-5.08" x2="144.78" y2="-5.08" width="0.1524" layer="91"/>
 <label x="134.62" y="-5.08" size="1.778" layer="91" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J$20" gate="G$1" pin="CLK"/>
+<wire x1="86.36" y1="-58.42" x2="91.44" y2="-58.42" width="0.1524" layer="91"/>
+<label x="91.44" y="-58.42" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="9"/>
+<wire x1="86.36" y1="15.24" x2="91.44" y2="15.24" width="0.1524" layer="91"/>
+<label x="91.44" y="15.24" size="1.778" layer="91" font="vector" xref="yes"/>
+</segment>
 </net>
-<net name="GPIO12" class="0">
+<net name="HMISO" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="GPIO12"/>
 <wire x1="149.86" y1="-7.62" x2="144.78" y2="-7.62" width="0.1524" layer="91"/>
 <label x="144.78" y="-7.62" size="1.778" layer="91" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J$20" gate="G$1" pin="MISO"/>
+<wire x1="86.36" y1="-48.26" x2="91.44" y2="-48.26" width="0.1524" layer="91"/>
+<label x="91.44" y="-48.26" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="8"/>
+<wire x1="71.12" y1="12.7" x2="66.04" y2="12.7" width="0.1524" layer="91"/>
+<label x="55.88" y="12.7" size="1.778" layer="91" font="vector" rot="R180" xref="yes"/>
+</segment>
 </net>
-<net name="GPIO13" class="0">
+<net name="HMOSI" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="GPIO13"/>
 <wire x1="149.86" y1="-10.16" x2="144.78" y2="-10.16" width="0.1524" layer="91"/>
 <label x="134.62" y="-10.16" size="1.778" layer="91" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J$20" gate="G$1" pin="MOSI"/>
+<wire x1="63.5" y1="-53.34" x2="58.42" y2="-53.34" width="0.1524" layer="91"/>
+<label x="58.42" y="-53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="7"/>
+<wire x1="86.36" y1="12.7" x2="91.44" y2="12.7" width="0.1524" layer="91"/>
+<label x="104.14" y="12.7" size="1.778" layer="91" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="TXD" class="0">
@@ -9287,28 +9250,9 @@ DIN A3, landscape with extra doc field</description>
 </net>
 <net name="GPIO15" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GPIO15"/>
-<wire x1="182.88" y1="-10.16" x2="187.96" y2="-10.16" width="0.1524" layer="91"/>
-<label x="200.66" y="-10.16" size="1.778" layer="91" xref="yes"/>
-</segment>
-<segment>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="251.46" y1="-25.4" x2="261.62" y2="-25.4" width="0.1524" layer="91"/>
 <label x="261.62" y="-25.4" size="1.778" layer="91" font="vector" xref="yes"/>
-</segment>
-</net>
-<net name="GPIO9" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="*GPIO9"/>
-<wire x1="165.1" y1="-30.48" x2="165.1" y2="-35.56" width="0.1524" layer="91"/>
-<label x="165.1" y="-45.72" size="1.778" layer="91" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="GPIO10" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="*GPIO10"/>
-<wire x1="167.64" y1="-30.48" x2="167.64" y2="-35.56" width="0.1524" layer="91"/>
-<label x="167.64" y="-35.56" size="1.778" layer="91" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$44" class="0">
@@ -9342,6 +9286,18 @@ DIN A3, landscape with extra doc field</description>
 <wire x1="261.62" y1="55.88" x2="261.62" y2="53.34" width="0.1524" layer="91"/>
 <junction x="261.62" y="53.34"/>
 <junction x="261.62" y="55.88"/>
+</segment>
+</net>
+<net name="HCSSD" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="GPIO15"/>
+<wire x1="182.88" y1="-10.16" x2="187.96" y2="-10.16" width="0.1524" layer="91"/>
+<label x="200.66" y="-10.16" size="1.778" layer="91" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J$20" gate="G$1" pin="CS"/>
+<wire x1="63.5" y1="-48.26" x2="58.42" y2="-48.26" width="0.1524" layer="91"/>
+<label x="58.42" y="-48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

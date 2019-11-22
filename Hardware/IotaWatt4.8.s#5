@@ -7370,7 +7370,7 @@ W = angled&lt;p&gt;
 <segment>
 <pinref part="U1" gate="G$1" pin="MOSI"/>
 <wire x1="149.86" y1="68.58" x2="149.86" y2="63.5" width="0.1524" layer="91"/>
-<label x="149.86" y="55.88" size="1.778" layer="91" rot="R270" xref="yes"/>
+<label x="149.86" y="53.34" size="1.778" layer="91" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="G$1" pin="7"/>
@@ -7692,8 +7692,8 @@ W = angled&lt;p&gt;
 <net name="CSSD" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="CS0"/>
-<wire x1="139.7" y1="68.58" x2="139.7" y2="63.5" width="0.1524" layer="91"/>
-<label x="139.7" y="63.5" size="1.778" layer="91" rot="R270" xref="yes"/>
+<wire x1="139.7" y1="68.58" x2="139.7" y2="53.34" width="0.1524" layer="91"/>
+<label x="139.7" y="53.34" size="1.778" layer="91" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="G$1" pin="10"/>
@@ -8114,7 +8114,7 @@ W = angled&lt;p&gt;
 <segment>
 <pinref part="U1" gate="G$1" pin="GPIO13"/>
 <wire x1="129.54" y1="88.9" x2="124.46" y2="88.9" width="0.1524" layer="91"/>
-<label x="116.84" y="88.9" size="1.778" layer="91" rot="R180" xref="yes"/>
+<label x="114.3" y="88.9" size="1.778" layer="91" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="TXD" class="0">
@@ -8135,7 +8135,7 @@ W = angled&lt;p&gt;
 <segment>
 <pinref part="U1" gate="G$1" pin="GPIO15"/>
 <wire x1="162.56" y1="88.9" x2="167.64" y2="88.9" width="0.1524" layer="91"/>
-<label x="175.26" y="88.9" size="1.778" layer="91" xref="yes"/>
+<label x="180.34" y="88.9" size="1.778" layer="91" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
