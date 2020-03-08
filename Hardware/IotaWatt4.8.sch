@@ -8290,6 +8290,9 @@ Wickmann</description>
 <part name="R31" library="resistor" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="C9" library="adafruit" deviceset="C-US" device="C0805" value="10uF"/>
 <part name="R32" library="resistor" deviceset="R-EU_" device="R0805" value="12K"/>
+<part name="R3" library="resistor" deviceset="R-EU_" device="R0805" value="330"/>
+<part name="R4" library="resistor" deviceset="R-EU_" device="R0805" value="330"/>
+<part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8416,6 +8419,15 @@ Wickmann</description>
 <instance part="R31" gate="G$1" x="93.98" y="99.06" rot="MR180"/>
 <instance part="C9" gate="G$1" x="73.66" y="99.06" rot="MR270"/>
 <instance part="R32" gate="G$1" x="83.82" y="99.06" rot="MR0"/>
+<instance part="R3" gate="G$1" x="238.76" y="-22.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="237.2614" y="-24.384" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="242.062" y="-25.146" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R4" gate="G$1" x="248.92" y="-22.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="247.4214" y="-24.384" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="252.222" y="-25.146" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY2" gate="GND" x="248.92" y="-40.64" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -8535,6 +8547,15 @@ Wickmann</description>
 <pinref part="SV1" gate="G$1" pin="12"/>
 <wire x1="228.6" y1="25.4" x2="223.52" y2="25.4" width="0.1524" layer="91"/>
 <label x="213.36" y="25.4" size="1.778" layer="91" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="238.76" y1="-27.94" x2="238.76" y2="-38.1" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="238.76" y1="-38.1" x2="248.92" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="-38.1" x2="248.92" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="SUPPLY2" gate="GND" pin="GND"/>
+<junction x="248.92" y="-38.1"/>
 </segment>
 </net>
 <net name="ADC1" class="0">
@@ -8706,6 +8727,11 @@ Wickmann</description>
 <wire x1="243.84" y1="20.32" x2="248.92" y2="20.32" width="0.1524" layer="91"/>
 <label x="261.62" y="20.32" size="1.778" layer="91" font="vector" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="248.92" y1="-17.78" x2="248.92" y2="-12.7" width="0.1524" layer="91"/>
+<label x="248.92" y="-12.7" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="SCLK" class="0">
 <segment>
@@ -8724,6 +8750,11 @@ Wickmann</description>
 <pinref part="SV1" gate="G$1" pin="9"/>
 <wire x1="243.84" y1="22.86" x2="248.92" y2="22.86" width="0.1524" layer="91"/>
 <label x="248.92" y="22.86" size="1.778" layer="91" font="vector" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="238.76" y1="-17.78" x2="238.76" y2="-12.7" width="0.1524" layer="91"/>
+<label x="238.76" y="-12.7" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="3V3" class="0">

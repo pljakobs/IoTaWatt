@@ -8794,6 +8794,8 @@ DIN A3, landscape with extra doc field</description>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X4" device=""/>
 <part name="FRAME1" library="frames" deviceset="DINA3_L" device=""/>
+<part name="R2" library="resistor" deviceset="R-EU_" device="R0805" value="330"/>
+<part name="GND2" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8850,6 +8852,11 @@ DIN A3, landscape with extra doc field</description>
 <instance part="JP1" gate="A" x="243.84" y="25.4" rot="R180"/>
 <instance part="FRAME1" gate="G$1" x="-10.16" y="-142.24"/>
 <instance part="FRAME1" gate="G$2" x="276.86" y="-142.24"/>
+<instance part="R2" gate="G$1" x="127" y="-40.64" smashed="yes" rot="R270">
+<attribute name="NAME" x="128.2446" y="-39.116" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="123.952" y="-38.862" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND2" gate="1" x="127" y="-53.34"/>
 </instances>
 <busses>
 </busses>
@@ -8945,6 +8952,11 @@ DIN A3, landscape with extra doc field</description>
 <segment>
 <pinref part="JP1" gate="A" pin="4"/>
 <wire x1="246.38" y1="27.94" x2="254" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND2" gate="1" pin="GND"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="127" y1="-50.8" x2="127" y2="-45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3V3" class="0">
@@ -9208,6 +9220,11 @@ DIN A3, landscape with extra doc field</description>
 <wire x1="71.12" y1="12.7" x2="66.04" y2="12.7" width="0.1524" layer="91"/>
 <label x="55.88" y="12.7" size="1.778" layer="91" font="vector" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="127" y1="-35.56" x2="127" y2="-30.48" width="0.1524" layer="91"/>
+<label x="127" y="-30.48" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="HMOSI" class="0">
 <segment>
@@ -9246,13 +9263,6 @@ DIN A3, landscape with extra doc field</description>
 <segment>
 <pinref part="JP1" gate="A" pin="2"/>
 <wire x1="246.38" y1="22.86" x2="254" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="GPIO15" class="0">
-<segment>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="251.46" y1="-25.4" x2="261.62" y2="-25.4" width="0.1524" layer="91"/>
-<label x="261.62" y="-25.4" size="1.778" layer="91" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="N$44" class="0">
@@ -9298,6 +9308,11 @@ DIN A3, landscape with extra doc field</description>
 <pinref part="J$20" gate="G$1" pin="CS"/>
 <wire x1="63.5" y1="-48.26" x2="58.42" y2="-48.26" width="0.1524" layer="91"/>
 <label x="58.42" y="-48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="251.46" y1="-25.4" x2="261.62" y2="-25.4" width="0.1524" layer="91"/>
+<label x="261.62" y="-25.4" size="1.778" layer="91" font="vector" xref="yes"/>
 </segment>
 </net>
 </nets>

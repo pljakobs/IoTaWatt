@@ -7,5 +7,7 @@ Firmware\.pio
 *.dblite
 *.dblite
 Firmware/.pio/build/.sconsign.dblite
-.b#?
-.s#?
+*.b#?
+*.s#?
+*.b##
+*.s##
