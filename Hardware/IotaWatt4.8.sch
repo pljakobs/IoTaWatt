@@ -8827,6 +8827,11 @@ Wickmann</description>
 <wire x1="243.84" y1="27.94" x2="248.92" y2="27.94" width="0.1524" layer="91"/>
 <label x="248.92" y="27.94" size="1.778" layer="91" font="vector" xref="yes"/>
 </segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="10"/>
+<wire x1="228.6" y1="22.86" x2="223.52" y2="22.86" width="0.1524" layer="91"/>
+<label x="223.52" y="22.86" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="ADC7" class="0">
 <segment>
